@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`maches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <h3>
+      Boxes
+    </h3>
+    <div
+      style="background-color: pink; height: 100px; width: 100px;"
+    />
+    <div
+      style="background-color: olive; height: 60px; width: 35px;"
+    />
+    <div
+      style="background-color: green; height: 150px; width: 100px;"
+    />
+    <div>
+      <form>
+        <label
+          for="backgroundColor"
+        >
+          Background Color
+        </label>
+        <input
+          id="backgroundColor"
+          name="backgroundColor"
+          placeholder="Background Color"
+          type="text"
+          value=""
+        />
+        <label
+          for="width"
+        >
+          Width
+        </label>
+        <input
+          id="width"
+          name="width"
+          placeholder="Width"
+          type="text"
+          value=""
+        />
+        <label
+          for="heigth"
+        >
+          Heigth
+        </label>
+        <input
+          id="heigth"
+          name="heigth"
+          placeholder="Heigth"
+          type="text"
+          value=""
+        />
+        <p>
+          Color: 
+        </p>
+        <p>
+          Heigth: px
+        </p>
+        <p>
+          Width: px
+        </p>
+        <button>
+          Add Box!
+        </button>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;
